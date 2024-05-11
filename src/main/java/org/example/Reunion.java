@@ -36,11 +36,17 @@ public abstract class Reunion {
         return asistenciaList;
     }
 
-    public obtenerAsistencias() {}
-    public obtenerAusencias() {}
-    public obtenerRetrasos() {}
-    public int obtenerTotalAsistencia() {}
-    public float obtenerPorcentajeAsistencia() {}
+    //-----------------------------------------------------------
+    public void obtenerAsistencias() {} //OAJIOSDJQW
+    public void obtenerAusencias() {} //JQWOIDJQIOWDJ
+    public void obtenerRetrasos() {} //WKJDOQJWOIDJ
+    public int obtenerTotalAsistencia() {
+        return 1;
+    } //AOKJSDIOQWJDO
+    public float obtenerPorcentajeAsistencia() {
+        return 0.00f;
+    } //OIJDOWIQJDOIQJWIOD
+    //-------------------------------------------------------------
 
     public float calcularTiempoReal() {
         if ( horaInicio!=null && horaFin!=null ) {
