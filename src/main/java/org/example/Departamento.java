@@ -1,6 +1,7 @@
 package org.example;
 
-public class Departamento {
+public class Departamento implements Invitable{
     private String nombre;
-    public int obtenerCantidadEmpleados(){}
+    public int obtenerCantidadEmpleados() {}
+    public void invitar() {}
 }

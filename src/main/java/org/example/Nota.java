@@ -1,5 +1,5 @@
 package org.example;
 
-public class Nota {
+public class Nota{
     private String contenido;
 }

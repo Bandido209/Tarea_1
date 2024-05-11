@@ -1,9 +1,6 @@
 package org.example;
 import java.time.Instant;
 
-public class Retraso extends Asistencia {
+public class Retraso extends Asistencia{
     private Instant hora;
-    public Retraso(){
-        super();
-    }
 }
